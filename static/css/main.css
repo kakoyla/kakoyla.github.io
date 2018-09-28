@@ -1,0 +1,467 @@
+@font-face {
+  font-family: "Lato";
+  src: url("../css/fonts/Lato_Regular/Lato-Regular.eot?") format("eot"), url("../css/fonts/Lato_Regular/Lato-Regular.woff") format("woff"), url("../css/fonts/Lato_Regular/Lato-Regular.ttf") format("truetype"), url("../css/fonts/Lato_Regular/Lato-Regular.svg#Lato-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato Bold";
+  src: url("../css/fonts/Lato_Bold/Lato-Bold.eot?") format("eot"), url("../css/fonts/Lato_Bold/Lato-Bold.woff") format("woff"), url("../css/fonts/Lato_Bold/Lato-Bold.ttf") format("truetype"), url("../css/fonts/Lato_Bold/Lato-Bold.svg#Lato-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BelleroseL';
+  src: url("../css/fonts/Bellerose_Light_1_0/Bellerose.eot?") format("eot"), url("../css/fonts/Bellerose_Light_1_0/Bellerose.woff") format("woff"), url("../css/fonts/Bellerose_Light_1_0/Bellerose.ttf") format("truetype"), url("../css/fonts/Bellerose_Light_1_0/Bellerose.svg#BelleroseLight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Riesling";
+  src: url("../css/fonts/Riesling/riesling.eot?") format("eot"), url("../css/fonts/Riesling/riesling.woff") format("woff"), url("../css/fonts/Riesling/riesling.ttf") format("truetype"), url("../css/fonts/Riesling/riesling.svg#Riesling") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Movie Letters";
+  src: url("../css/fonts/Movie_Letters/MovLette.eot?") format("eot"), url("../css/fonts/Movie_Letters/MovLette.woff") format("woff"), url("../css/fonts/Movie_Letters/MovLette.ttf") format("truetype"), url("../css/fonts/Movie_Letters/MovLette.svg#MovieLetters") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "8bit";
+  src: url("../css/fonts/8bit/8bitoperator_jve.eot?") format("eot"), url("../css/fonts/8bit/8bitoperator_jve.woff") format("woff"), url("../css/fonts/8bit/8bitoperator_jve.ttf") format("truetype"), url("../css/fonts/8bit/8bitoperator_jve.svg#8bitoperator-JVE") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Isotype";
+  src: url("../css/fonts/Isotype/ISM_____.eot?") format("eot"), url("../css/fonts/Isotype/ISM_____.woff") format("woff"), url("../css/fonts/Isotype/ISM_____.ttf") format("truetype"), url("../css/fonts/Isotype/ISM_____.svg#Isotype-Medium") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Code-Light";
+  src: url("../css/fonts/Code-Light/CODE_Light.eot?") format("eot"), url("../css/fonts/Code-Light/CODE_Light.woff") format("woff"), url("../css/fonts/Code-Light/CODE_Light.ttf") format("truetype"), url("../css/fonts/Code-Light/CODE_Light.svg#Code-Light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-color:black;
+  /* background-color: #343a40; */
+  background-repeat: no-repeat;
+  font-family: 'Lato', sans-serif;
+  min-height: 100%;
+  height: 100%;
+}
+
+.overlay {
+  padding-top: 0px;
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgb(237, 247, 255, 0.1);
+}
+
+.waiting {
+  color: orange;
+}
+
+.acct {
+  color: grey;
+}
+
+.text-Dak {
+  color: #52565e;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.text-Liet {
+  color: #cfddf9;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.text-Liet18 {
+  color: #cfddf9;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.freshNenergtic {
+  color: #4CB5F5;
+  bluesky color: #B7B8B6;
+  granite color: #34675C;
+  pine color: #B3C100;
+  fields
+}
+
+.iceybluesandgreys {
+  color: #F1F1F2;
+  overcast color: #BCBABE;
+  warm grey color: #A1D6E2;
+  ice color: #1995AD;
+  glacier blue
+}
+
+.bgOvercast {
+  background-color: #F1F1F2;
+}
+
+.bgWarmGrey {
+  background-color: #BCBABE;
+}
+
+.bgIce {
+  background-color: #A1D6E2;
+}
+
+.bgGlacierBlue {
+  background-color: #1995AD;
+}
+
+.overcast {
+  color: #F1F1F2;
+}
+
+.warmGrey {
+  color: #BCBABE;
+}
+
+.ice {
+  color: #A1D6E2;
+}
+
+.glacierBlue {
+  color: #1995AD;
+}
+
+.bgButtercup {
+  background-color: #FBCD4B;
+}
+
+.bgSilverPlate {
+  background-color: #A3A599;
+}
+
+.bgDark {
+  background-color: #282623;
+}
+
+.bgAlgae {
+  background-color: #88A550;
+}
+
+.buttercup {
+  color: #FBCD4B;
+}
+
+.silverPlate {
+  color: #A3A599;
+}
+
+.dark {
+  color: #282623;
+}
+
+.algae {
+  color: #88A550;
+}
+
+.neonRed {
+  color: #F34A4A;
+}
+
+.bgNeonRed {
+  background-color: #F34A4A;
+}
+
+.bgEasyBlue {
+  background-color: #4286f4;
+}
+
+.easyBlue {
+  color: #4286f4;
+}
+
+.clickableAwesomeFont {
+  cursor: pointer;
+}
+
+.matrixGreen {
+  color: #00FF41;
+  font-family: '8bit', sans-serif;
+}
+
+.matrixGreen2 {
+  color: #008F11;
+  font-family: '8bit', sans-serif;
+}
+
+.matrixGreen3 {
+  color: #13DAF4;
+  font-family: '8bit', sans-serif;
+  text-shadow: 2px 2px 8px #07e2ff, -2px -2px 8px #07e2ff
+}
+
+.matrixGreen1 {
+  color: #00FF41;
+  font-family: '8bit', sans-serif;
+  text-shadow: 2px 2px 8px #07e2ff, -2px -2px 8px #07e2ff
+}
+
+.matrixGreen1Bg {
+  color: white;
+  font-family: '8bit', sans-serif;
+  text-shadow: 2px 2px 8px #00FF41, -2px -2px 8px #07e2ff
+}
+
+.matrixRed {
+  color: #F34A4A;
+  font-family: '8bit', sans-serif;
+  text-shadow: 2px 2px 8px #F34A4A, -2px -2px 8px #F34A4A
+}
+
+.matrixYellowBg {
+  color: #FBCD4B;
+  text-shadow: 2px 2px 8px black, -2px -2px 8px black
+}
+
+.matrixBlack {
+  color: black;
+  font-family: '8bit', sans-serif;
+}
+
+.shadowDiv {
+  padding: 10px;
+  box-shadow: 5px 5px 20px #A3A599, -5px -5px 20px #A3A599;
+}
+
+.logo {
+  font-family: 'Code-Light';
+  font-weight: 800;
+  font-size: 40px;
+  text-shadow: 2px 2px 8px #07e2ff, -2px -2px 8px #07e2ff
+}
+
+.logoMed {
+  font-weight: 200;
+  font-size: 25px;
+  text-shadow: 2px 2px 8px #07e2ff, -2px -2px 8px #07e2ff
+}
+
+.logoMedNoShdw {
+  font-family: 'Code-Light';
+  font-weight: 800;
+  font-size: 25px;
+  color: white;
+}
+
+.bghighlightAccent {
+  background-color: #337bae
+}
+
+.highlightAccent {
+  color: #337bae
+}
+
+.bgbloodOrange {
+  background-color: #e7552c
+}
+
+.bloodOrange {
+  color: #e7552c
+}
+
+.complimentaryO {
+  color: #ff4d07
+}
+
+.bgComplimentaryO {
+  background-color: #ff4d07
+}
+
+.logoColor {
+  color: #13DAF4
+}
+
+.bgLogoColor {
+  background-color: #13DAF4
+}
+
+.bg-black {
+  background-color: black
+}
+
+.acctDeet {
+  display: inline;
+  position: absolute;
+  height: 600px;
+  width: 400px;
+  left: 0;
+  top: 0;
+  background: white;
+}
+
+html,
+body {
+  max-height: 100%;
+}
+
+.effect-2~.focus-border {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: #3399FF;
+  transition: 0.4s;
+}
+
+.effect-2:focus~.focus-border {
+  width: 100%;
+  transition: 0.4s;
+  left: 0;
+}
+
+.lightskyblue{
+  color:lightskyblue;
+}
+.bglightskyblue{
+  background-color:lightskyblue;
+}
+
+:focus {
+  outline: none;
+}
+
+.col-boom {
+  float: center;
+  width: 50%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+.effect-2A~.focus-border {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 3px;
+  background-color: #3399FF;
+  transition: 0.4s;
+}
+
+.effect-2A:focus~.focus-border {
+  width: 100%;
+  transition: 0.4s;
+  left: 0;
+}
+.col-boom1 {
+  float: center;
+  width: 75%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* necessary to give position: relative to parent. */
+input[type="text"] {
+  font: 15px/24px "Lato", Arial, sans-serif;
+  color: #333;
+  width: 100%;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+
+input{
+   text-align:center;
+   /*background: #343a40;*/
+   background: black;
+   color:lightskyblue;
+    font-size: 22px;
+}
+input::-webkit-input-placeholder {
+color: white !important;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+color: white !important;  
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+color: white !important;  
+}
+
+input:-ms-input-placeholder {  
+color: white !important;  
+}
+.no-border {
+    border-top:0;
+    border-left:0;
+    border-right:0;
+    box-shadow: none;
+}
+.zero-border {
+  border-top:0;
+  border-bottom:0;
+  border-left:0;
+  border-right:0;
+  box-shadow: none;
+}
+
+.walletAcct {
+  position: fixed; 
+  padding-top:5px; 
+  padding-bottom:0px;
+  padding-right:10px;
+  padding-left:10px;
+  top: 20px;
+  right: 20px;
+  border:solid;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  box-shadow: none;
+  border-color:#3399FF
+}
+
+input:focus {
+  /*background-color: #343a40; */
+  background-color: black;
+  color:  lightskyblue
+}
+</style>
