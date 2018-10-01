@@ -2,20 +2,53 @@
 
 > cold wallet interface
 
-## Build Setup
+# Build Setup
+This is just the demo BUT you can use this if you don't care about looking at the code.
 
-``` bash
-# install dependencies
-npm install
+Click the green Clone or Download button to save locally.
 
-# serve with hot reload at localhost:8080
-npm run dev
 
-# build for production with minification
-npm run build
+To use this without a server (offline):
+	
+	1. OPEN the index.html
+	2. FIND ALL "href=/" REPLACE WITH "href="
+	3. FIND ALL "src=/" REPLACE WITH "src="
+	4. SAVE 
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+After saving you can open index.html and it will load offline with no server running.
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+# Why would I ever trust this without looking at the code? 
+	
+	Good question!
+	
+	I made this for friends and family who are not tech savy. 
+	They will never look at the code anyway.
+	Based on my experience reading the different forums, neither will anyone else, mainly because they dont know how.
+
+# Is there another way to test this is legit?
+
+	I was thinking, do you really need to go through the code line by line in-order to trust this or is there another way?
+
+	The only piece that comes out of this app will be the tx_blob, which will then be submitted on an online pc.
+
+	So why not check that the tx_blob is legitimate rather than going through the code line by line (which never happens 		anyway). 
+
+	You can easily convert a signed tx_blob back to JSON by using the ripple binary codec.
+
+
+## Decode tx_blob with the following (assumes you have node installed):
+	 
+	# install ripple binary codec (https://github.com/ripple/ripple-binary-codec)
+	```npm i ripple-binary-codec```
+	
+	# save this code as decodeTx.js
+	```	const binary = require('ripple-binary-codec')
+		const signedTX ='ENTER tx_blob HERE' 
+		var decoded = (binary.decode(signedTX))
+		console.log(decoded)
+		if (decoded.Memos) {
+  		console.log(decoded.Memos)
+		}```
+	# update const signedTX with your tx_blob and save
+	# on the command line run it with
+	```node decodeTx.js```
