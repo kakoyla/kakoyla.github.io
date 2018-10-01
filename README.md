@@ -29,7 +29,7 @@ Based on my experience reading the different forums, neither will anyone else, m
 
 I was thinking, do you really need to go through the code line by line in-order to trust this or is there another way?
 
-The only piece that comes out of this app will be the tx_blob, which will then be submitted on an online pc.
+If used for its intended purpose (only on an offline PC),the only piece that comes out of this app that will ever be exposed will be the tx_blob, which will be submitted on an online pc.
 
 So why not check that the tx_blob is legitimate rather than going through the code line by line (which never happens anyway). 
 
@@ -57,4 +57,4 @@ Then update const signedTX with your tx_blob and save
 Run it on the command line with
 	 	
 		node decodeTx.js 
-the decoded tx_blob will be shown and you can now review to make sure the fields present match your expected transaction.
+The decoded tx_blob will be shown and you can now review to make sure the fields present match your expected transaction.
