@@ -23,7 +23,7 @@ Good question!
 	
 I made this for friends and family who are not tech savy. 
 They will never look at the code anyway.
-Based on my experience reading the different forums, neither will anyone else, mainly because they dont know how.
+Based on my experience reading the different forums, neither will anyone else, mainly because they dont know how. If they do know how they most likely have better things to do with their time.
 
 ## Is there another way to test this is legit?
 
