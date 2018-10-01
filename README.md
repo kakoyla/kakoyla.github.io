@@ -38,17 +38,17 @@ You can easily convert a signed tx_blob back to JSON by using the ripple binary 
 
 ## Decode tx_blob with the following (assumes you have node installed):
 	 
-	# install ripple binary codec (https://github.com/ripple/ripple-binary-codec)
-	npm i ripple-binary-codec
+install ripple binary codec (https://github.com/ripple/ripple-binary-codec)
+	# npm i ripple-binary-codec
 	
-	# save this code as decodeTx.js
-	```	const binary = require('ripple-binary-codec')
+save this code as decodeTx.js
+	#	const binary = require('ripple-binary-codec')
 		const signedTX ='ENTER tx_blob HERE' 
 		var decoded = (binary.decode(signedTX))
 		console.log(decoded)
 		if (decoded.Memos) {
   		console.log(decoded.Memos)
-		}```
-	# update const signedTX with your tx_blob and save
-	# on the command line run it with
-	```node decodeTx.js```
+		}
+update const signedTX with your tx_blob and save
+on the command line run it with
+	# node decodeTx.js
