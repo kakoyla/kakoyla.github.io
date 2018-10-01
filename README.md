@@ -17,7 +17,7 @@ To use this without a server (offline):
 
 After saving you can open index.html and it will load offline with no server running.
 
-# Why would I ever trust this without looking at the code? 
+## Why would I ever trust this without looking at the code? 
 	
 Good question!
 	
@@ -25,7 +25,7 @@ I made this for friends and family who are not tech savy.
 They will never look at the code anyway.
 Based on my experience reading the different forums, neither will anyone else, mainly because they dont know how.
 
-# Is there another way to test this is legit?
+## Is there another way to test this is legit?
 
 I was thinking, do you really need to go through the code line by line in-order to trust this or is there another way?
 
@@ -38,10 +38,12 @@ You can easily convert a signed tx_blob back to JSON by using the ripple binary 
 
 ## Decode tx_blob with the following (assumes you have node installed):
 	 
- 	# install ripple binary codec (https://github.com/ripple/ripple-binary-codec)
+install ripple binary codec (https://github.com/ripple/ripple-binary-codec)
+		
 		npm i ripple-binary-codec
 	
-	# save this code as decodeTx.js:
+save this code as decodeTx.js:
+		
 		const binary = require('ripple-binary-codec')
 		const signedTX ='ENTER tx_blob HERE' 
 		var decoded = (binary.decode(signedTX))
@@ -50,7 +52,9 @@ You can easily convert a signed tx_blob back to JSON by using the ripple binary 
   		console.log(decoded.Memos)
 		}
 		
-	# update const signedTX with your tx_blob and save
+Then update const signedTX with your tx_blob and save
 	
-	# on the command line run it with
-	 	node decodeTx.js 
+Run it on the command line with
+	 	
+		node decodeTx.js 
+the decoded tx_blob will be shown and you can now review to make sure the fields present match your expected transaction.
