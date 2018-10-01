@@ -19,27 +19,27 @@ After saving you can open index.html and it will load offline with no server run
 
 # Why would I ever trust this without looking at the code? 
 	
-	Good question!
+Good question!
 	
-	I made this for friends and family who are not tech savy. 
-	They will never look at the code anyway.
-	Based on my experience reading the different forums, neither will anyone else, mainly because they dont know how.
+I made this for friends and family who are not tech savy. 
+They will never look at the code anyway.
+Based on my experience reading the different forums, neither will anyone else, mainly because they dont know how.
 
 # Is there another way to test this is legit?
 
-	I was thinking, do you really need to go through the code line by line in-order to trust this or is there another way?
+I was thinking, do you really need to go through the code line by line in-order to trust this or is there another way?
 
-	The only piece that comes out of this app will be the tx_blob, which will then be submitted on an online pc.
+The only piece that comes out of this app will be the tx_blob, which will then be submitted on an online pc.
 
-	So why not check that the tx_blob is legitimate rather than going through the code line by line (which never happens 		anyway). 
+So why not check that the tx_blob is legitimate rather than going through the code line by line (which never happens anyway). 
 
-	You can easily convert a signed tx_blob back to JSON by using the ripple binary codec.
+You can easily convert a signed tx_blob back to JSON by using the ripple binary codec.
 
 
 ## Decode tx_blob with the following (assumes you have node installed):
 	 
 	# install ripple binary codec (https://github.com/ripple/ripple-binary-codec)
-	```npm i ripple-binary-codec```
+	npm i ripple-binary-codec
 	
 	# save this code as decodeTx.js
 	```	const binary = require('ripple-binary-codec')
