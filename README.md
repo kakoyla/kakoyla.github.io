@@ -3,7 +3,7 @@
 > cold wallet interface
 
 # Build Setup
-This is just the demo BUT you can use this if you don't care about looking at the code.
+This is just the demo BUT you can use this if you don't care about looking at the code. If you want to see the code it can be found here: https://github.com/kakoyla/icecold
 
 Click the green Clone or Download button to save locally.
 
