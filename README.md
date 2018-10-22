@@ -1,6 +1,8 @@
 # icecold
 
 > cold wallet interface
+# demo:
+https://kakoyla.github.io/
 
 # Build Setup
 This is just the demo BUT you can use this if you don't care about looking at the code. If you want to see the code it can be found here: https://github.com/kakoyla/icecold
